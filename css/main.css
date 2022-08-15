@@ -1,10 +1,12 @@
-.imagenperfil {
-border-radius: 50%;
-
-}
-
 body {
   font-family: 'Titillium Web', sans-serif;
+}
+
+.img-perfil {
+  border-radius: 50% ;
+  display:block;
+  margin:auto;
+  margin-bottom: 30px;
 }
 
 .navbar-brand {
@@ -12,7 +14,6 @@ body {
   color: #000;
   font-weight: bold;
 }
-
 
 #testimonial {
   background: #f1f1f1;
@@ -32,3 +33,4 @@ body {
   font-size: 35px;
   color: #08090a;
 }
+
