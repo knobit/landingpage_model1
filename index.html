@@ -4,6 +4,9 @@
     <meta charset="UTF-8"/>
     <title>Frontend Developer </title>
     <link rel="icon" href="/img/favicon.jpg.png">
+    
+
+
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
     <!-- BOOTSTRAP 4 -->
@@ -15,8 +18,10 @@
 
      <!--whatsapp-->
      <link rel="stylesheet" href="css/whatsapp.css">
+     
 
   <body>
+    <section>
    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -33,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="#header">Inicio</a>
-          <a class="nav-item nav-link" href="#info-one">Proyectos</a>
+          <a class="nav-item nav-link" href="https://github.com/knobit">Proyectos</a>
           <a class="nav-item nav-link" href="https://api.whatsapp.com/send?phone=584247097098&text=Hola Canio, estoy interesado en contratar tus servicios para un proyecto web." class="float" target="_blank">Contacto</a>
         </div>
       </div>
@@ -75,13 +80,13 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="info1-left">
-              <br><br>
+              <br>
               <h2>Un poco de mi</h2><br>
               <p> Asiduo aprendíz de los constantes cambios en el mundo digital como estudiante de Ingenieria de Sistemas, motivado por la curiosidad, conocí distintos lenguajes de programación como hobbie y que con el tiempo se volvieron herramientas para mi labor del día a día. </p><br>
 
               En un mundo donde el código avanza tan rápido es vital aplicar el eslogan "nunca parar de aprender" para mantenerse a flote.
             <div>
-                <br><br><h2>Skills</h2><br>
+                <br><br><h2>Skills</h2>
                 <ul>
                   <li>HTML</li>
                   <li>CCS</li>
@@ -89,7 +94,6 @@
                   <li>Boostrap</li>
                   <li>Git y GitHub</li>
                   <li>Testing y Web Performance</li>
-                  <li>NodeJs</li>
                   <li>Nivel de ingles intermedio</li>
                   </ul>
             </div>
@@ -106,76 +110,114 @@
         </div>
       </div>
     </section>
+  </section>
+  
 
-    <section id="info-two">
-      <div class="container">
-        <div class="row my-5">
-          <div class="col-md-11">
-            
-                        
-          
-          <!-- EXTRA
-          </div>
-          <div class="col-md-10">
-            <h2>Métodos de pagos</h2> 
-              <p>Aceptamos transferencias en Bolívares, efectivo en dólares, Zelle, pago móvil, Binance. </p>
-          </div>
-        </div>
-      </div>
-    </section>
-          -->
 
-          <div class="container">
+
+
+  <div class="container">
+    <div class=" text-center mt-5 ">
+        <h2 >Contacto</h2>        
+    </div>
+
+<div class="row ">
+  <div class="col-lg-7 mx-auto">
+    <div class="card mt-2 mx-auto p-4 bg-light">
+        <div class="card-body bg-light">
+   
+        <div class = "container">
+                         <form id="contact-form" role="form" action="https://formsubmit.co/canionavarrog@gmail.com" method="POST">
+
+
+        <div class="controls">
+
             <div class="row">
-                <div class="col-md-12">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                            <fieldset>
-                                <legend class="text header">Contáctame</legend>
-                                </div>
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="lname" name="name" type="text" placeholder="nombre" class="form-control">
-                                    </div>
-                                </div>
-        
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="email" name="email" type="text" placeholder="email" class="form-control">
-                                    </div>
-                                </div>
-        
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="phone" name="phone" type="text" placeholder="teléfono" class="form-control">
-                                    </div>
-                                </div>
-        
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Hazme saber tu requerimiento" rows="7"></textarea>
-                                    </div>
-                                </div>
-        
-                                <div class="form-group">
-                                    <div class="col-md-8 text-center">
-                                        <button type="submit" class="btn btn-primary btn">Enviar</button>
-                                </div>
-                                </div>
-                            </fieldset>
-                        </form>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Nombre</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Nombre is required.">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Apellido</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="" required="required" data-error="Apellido is required.">
+                                                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Se requiere un email válido">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_need">Tipo de requerimiento</label>
+                        <select id="form_need" name="need" class="form-control" required="required" data-error="Selecciona un requerimiento">
+                            <option value="" selected disabled>--Seleciona alguno--</option>
+                            <option >Proyecto personal</option>
+                            <option >Proyecto corporativo</option>
+                            <option >Otro</option>
+                        </select>
+                        
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Mensaje</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Cuéntame un poco más sobre tu requerimiento" rows="4" required="required" data-error="Por favor sé más específico"></textarea
+                            >
+                        </div>
+
+                    </div>
+
+
+                <div class="col-md-12">
+                    
+                    <input type="submit" class="btn btn-success btn-send  pt-1.8 btn-block
+                        " value="Enviar" >
+                        <input type="hidden" name="_next" value="https://canionavarro.netlify.app/">
+                        <input type="hidden" name="_captcha" value="false">
+                
+            </div>
       
-          
-      
+            </div>
+
+
+    </div>
     
+
+  </form>
+    </div>
+        </div>
+
+
+</div>
+    <!-- /.8 -->
+
+</div>
+<!-- /.row-->
+
+</div>
+</div>
+
+  <div class=" text-center mt-5 ">
+    <p class="footer-heart">
+      Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+    <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by Me
+    </p>       
+  </div>
+
+  
+
+
 
     
 
@@ -223,13 +265,6 @@
       distance: '300px'
     });
 
-    sr.reveal('#testimonial div', {
-      duration: 2000,
-      origin: 'left',
-      distance: '300px',
-      viewFactor: 0.2
-    });
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -239,6 +274,8 @@
         });
       });
     });
-    </script>
+    </script>  
+   
+         
   </body>
 </html>
